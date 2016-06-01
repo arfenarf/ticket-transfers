@@ -1,0 +1,31 @@
+---
+title: "Quickie Unit Analysis"
+author: "KGW"
+date: "September 10, 2015"
+output: html_document
+---
+
+* Load library and raw data.  
+* Reorder columns so KGW guess appears early.
+* Reorder columns.
+* Switch KGW guess from low = big to low = small to make the correlations
+appear interesting
+
+
+```{r}
+setwd("~/datacourse/small projects")
+spp <- read.csv("Service Provider Patterns - Tidy Data.csv", skip = 1)
+spp2 <- spp[,c(1,15,2:14)]
+spp2$KGW.Guess <- 14 - spp2$KGW.Guess
+
+```
+
+Plot is a simple correlation plot between KGW Guess and each of the values
+that aren't currently NA.  I've taken the log of these guys to try to even out 
+the big skew, and added one so the zero values appear.
+
+```{r}
+plot(log10(spp2[,2:8] + 1))
+
+```
+

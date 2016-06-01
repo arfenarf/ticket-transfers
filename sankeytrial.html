@@ -1,0 +1,151 @@
+<!doctype HTML>
+<p><meta charset="utf-8"> <html> <head> <link href="data:text/css,%2F%2A%0Anot%20sure%20original%20author%0Abelieve%20I%20copied%2Fpasted%20from%0Ahttp%3A%2F%2Fwww%2Ed3noob%2Eorg%2F2013%2F02%2Fsankey%2Ddiagrams%2Ddescription%2Dof%2Dd3js%2Dcode%2Ehtml%0Abut%20have%20to%20think%20original%20source%20was%20Mike%20Bostock%0Ahttp%3A%2F%2Fbost%2Eocks%2Eorg%2Fmike%2Fsankey%2F%0A%2A%2F%0A%0A%2Enode%20rect%20%7B%0A%20%20cursor%3A%20move%3B%0A%20%20fill%2Dopacity%3A%20%2E9%3B%0A%20%20shape%2Drendering%3A%20crispEdges%3B%0A%7D%0A%0A%2Enode%20text%20%7B%0A%20%20pointer%2Devents%3A%20none%3B%0A%20%20text%2Dshadow%3A%200%201px%200%20%23fff%3B%0A%7D%0A%0A%2Elink%20%7B%0A%20%20fill%3A%20none%3B%0A%20%20stroke%3A%20%23000%3B%0A%20%20stroke%2Dopacity%3A%20%2E2%3B%0A%7D%0A%0A%2Elink%3Ahover%20%7B%0A%20%20stroke%2Dopacity%3A%20%2E5%3B%0A%7D%0A%0Asvg%20%7B%0A%20%20font%3A%2010px%20sans%2Dserif%3B%0A%7D" rel="stylesheet"></p>
+<pre><code>&lt;script src='http://timelyportfolio.github.io/rCharts_d3_sankey/js/d3.v3.js' type='text/javascript'&gt;&lt;/script&gt;
+&lt;script src='http://timelyportfolio.github.io/rCharts_d3_sankey/js/sankey.js' type='text/javascript'&gt;&lt;/script&gt;
+
+&lt;style&gt;
+.rChart {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 900px;
+  height: 1200px;
+}  
+&lt;/style&gt;</code></pre>
+<p></head> <body></p>
+<pre><code>&lt;div id = 'chart6ddc2f974498' class = 'rChart rCharts_d3_sankey'&gt;&lt;/div&gt;    
+&lt;!--Attribution:</code></pre>
+<p>Mike Bostock https://github.com/d3/d3-plugins/tree/master/sankey Mike Bostock http://bost.ocks.org/mike/sankey/ --&gt;</p>
+<script>
+(function(){
+var params = {
+ "dom": "chart6ddc2f974498",
+"width":    900,
+"height":   1200,
+"data": {
+ "source": [ "SSC", "College of Pharmacy", "Student Life", "College of Pharmacy", "College of Pharmacy", "LSA", "College of Pharmacy", "LSA", "Plant Operations", "LSA", "Ross School of Business", "Plant Operations", "SNRE", "UNIT Kinesiology", "LSA", "LSA", "DPSS Technology Management", "Facilities & Operations - AEC", "Plant Operations", "F&O - OSEH", "LSA", "FSPP", "LSA", "LSA", "SSC", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "UNIT Athletics", "UMSI", "LSA", "LSA", "Plant Operations", "LSA", "LSA", "Plant Operations", "Ross School of Business", "School of Education", "SNRE", "SSC", "UNIT University Library", "College of Pharmacy", "LSA", "Plant Operations", "Ross School of Business", "LSA", "OUD IT", "LSA", "Plant Operations", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "LSA", "SNRE", "LSA", "LSA", "MBGNA", "LSA", "LSA", "School of Education", "LSA", "LSA", "Plant Operations", "LSA", "LSA", "LSA", "LSA", "LSA", "Plant Operations", "UMSI", "UNIT University Library", "Museum of Art", "Facilities & Operations - AEC", "LSA", "LSA", "Plant Operations", "UMSI", "UNIT Kinesiology", "UNIT University Library", "College of Pharmacy", "LSA", "School of Education", "School of Social Work", "SNRE", "UNIT University Library", "FSPP", "LSA", "Plant Operations", "Ross School of Business", "College of Pharmacy", "DPSS Technology Management", "LSA", "Plant Operations", "SMTD", "UNIT PCM Print Copy Mail", "UNIT University Library", "OUD IT", "DPSS Technology Management", "Facilities & Operations - AEC", "LSA", "Plant Operations", "SSC", "OUD IT", "Plant Operations", "Plant Operations", "Plant Operations", "UNIT Facilities and Ops Parking and Transport", "Plant Operations", "Plant Operations", "Ross School of Business", "School of Education", "Rackham", "Ross School of Business", "Ross School of Business", "Ross School of Business", "Ross School of Business", "Ross School of Business", "School of Education", "LSA", "LSA", "LSA", "LSA", "LSA", "SMTD", "College of Pharmacy", "SNRE", "School of Education", "School of Education", "School of Education", "LSA", "School of Education", "School of Education", "School of Social Work", "Taubman College", "UNIT UHR University Human Resources", "LSA", "LSA", "UMSI", "Student Life", "Student Life", "LSA" ],
+"target": [ "Applicants", "Auxiliary IT", "Auxiliary IT", "CoP - Academic Tech", "CoP - Unit IT", "CoP - Unit IT", "CoP - Web Services", "CSDC Telecommunication Analysts", "CSDC Telecommunication Analysts", "CTools", "CTools", "Depot", "Depot", "Depot", "Desktop Backup", "Digital Signage", "DPSS Technology Support", "Facilities and Operations AEC - Unit IT", "Facilities and Operations AEC - Unit IT", "Facilities and Operations OSEH - Unit IT", "FIN Financials", "FSPP - Unit IT", "FSPP - Unit IT", "Hostmaster-DNS-DHCP", "HR Shared Services", "IAM Provisioning and Accounts", "Imaging Service", "ITS Access and Accounts", "ITS Access and Accounts Business Analysts", "ITS Administrative Systems Service Desk", "ITS AWI Application and Web Infrastructure", "ITS CTools Service Desk", "ITS Data Center Operations", "ITS Network", "ITS NOC Network Operation Center", "ITS Postmaster", "ITS Security Firewall", "ITS Security Incident Response", "ITS Service Center", "ITS Service Center", "ITS Service Center", "ITS Service Center", "ITS Service Center", "ITS Service Center", "ITS Service Center", "ITS Storage", "ITS Storage", "ITS Storage", "ITS Storage", "ITS Tech Repair", "ITS Tech Repair", "ITS User Advocate", "ITS Windows Infrastructure", "LSA Accounts", "LSA ARS Advocacy and Research Support", "LSA ARS Research Programming", "LSA Astronomy Support", "LSA CaTS Computing and Technology Support", "LSA CaTS LARET", "LSA CaTS Network", "LSA CaTS Printing", "LSA CaTS Windows", "LSA CaTS Workstudies", "LSA CET Astronomy", "LSA CET CaTS Computing and Technology", "LSA CET EHTS East Hall Technology Services", "LSA CET RSN Research Support North", "LSA CSG - Instructional Computing", "LSA CSG Computer Support Group - 500 S State", "LSA CSG Computer Support Group - Angell Hall", "LSA CSG Computer Support Group - MLB", "LSA DMC Web Services", "LSA Earth and Environmental Sciences Linux Support", "LSA EHTS East Hall Technology Services", "LSA EHTS Linux", "LSA EHTS Mac", "LSA EHTS Print", "LSA EHTS Students", "LSA EHTS Web", "LSA EHTS Windows", "LSA Infrastructure", "LSA IT Service Desk", "LSA MIS Management Information Systems", "LSA Network", "LSA Procurement", "LSA RSN Research Support North - Chemistry", "LSA RSN Research Support North - Kraus", "LSA RSN Research Support North - Kraus", "LSA Security", "LSA Web Feedback", "MBGNA - Unit IT", "MBox", "MGoogle", "MGoogle", "Michigan IT Service Portal", "MiServer", "MiServer", "MiWorkspace", "MiWorkspace Advance Team", "MiWorkspace Engineering Mac", "MiWorkspace Engineering Print", "MiWorkspace Engineering Windows", "MiWorkspace Engineering Windows", "MiWorkspace Engineering Windows", "MiWorkspace Engineering Windows", "Museum of Art - Museum Technology", "NIT Central 1", "NIT Central 1", "NIT Central 3", "NIT Central 3", "NIT Central 3", "NIT Central 3", "NIT Central 3", "NIT Central 4", "NIT Central 4", "NIT Central 4", "NIT Central 4", "NIT Central 4", "NIT Central 4", "NIT Central 5", "NIT Central 5", "NIT Central 5", "NIT Central 5", "NIT North 1", "NIT North 1", "NIT North 1", "NIT North 1", "NIT North 1", "NIT North 1", "NIT North 1", "NIT South 1", "NIT South 2", "NIT South 2", "NIT South 2", "NIT South 2", "Operations", "OUD IT - Support", "Plant - Dev", "Plant - MIS", "Plant - Support", "Plant - Support", "Plant - Systems", "Plant - Web", "Qualtrics", "Qualtrics", "Rackham - Unit IT", "Ross - Classroom Support", "Ross - Network-Infrastructure", "Ross - Orders", "Ross - Research Computing", "Ross - Web-Application", "SA Recruiting Admissions", "SA Student Records Advising Curriculum", "ServiceLink", "SiteMaker", "Sites Admin and Facilities", "Sites Rovers", "SMTD - Unit IT", "SNRE - Unit IT", "SNRE - Unit IT", "SOE - Brandon Center Desk", "SOE - Data Management", "SOE - Instructional Support", "SOE - IT Administration", "SOE - IT Administration", "SOE - Web Support", "SSW - Unit IT", "Taubman College - Unit IT", "UHR - Unit IT", "UmichITAM", "UMNet", "UMSI - UMSI Computing", "University Health Services", "University Unions", "WIFI" ],
+"value": [ 1, 1, 278, 38, 112, 2, 32, 1, 1, 10, 1, 1, 1, 1, 3, 1, 13, 44, 4, 4, 2, 26, 1, 1, 1, 1, 3, 2, 1, 2, 1, 1, 1, 1, 1, 6, 2, 2, 47, 7, 6, 15, 2, 1, 2, 1, 8, 1, 1, 2, 1, 5, 2, 138, 113, 9, 152, 83, 393, 32, 99, 373, 1, 73, 236, 497, 226, 258, 499, 632, 557, 580, 87, 823, 45, 485, 153, 26, 23, 298, 483, 1515, 8, 29, 401, 817, 843, 1, 57, 6, 2, 2, 15, 1, 1, 3, 1, 6, 1, 1, 5, 6, 8, 1, 1, 9, 1, 4, 1, 11, 5, 1, 8, 38, 5, 49, 2, 51, 47, 3, 3, 1, 95, 5, 1, 3, 9, 2, 1, 6, 11, 1, 4, 1, 84, 1, 7, 46, 78, 311, 1, 37, 73, 1, 2, 3, 1230, 34, 26, 4, 91, 1, 2, 2, 2, 3, 2, 17, 1, 67, 1075, 33, 111, 1, 8, 370, 4, 13, 4, 17, 3, 8, 1, 20, 5 ] 
+},
+"nodeWidth":     15,
+"nodePadding":     10,
+"layout":     32,
+"title": "Transferred Calls",
+"id": "chart6ddc2f974498" 
+};
+
+params.units ? units = " " + params.units : units = "";
+
+//hard code these now but eventually make available
+var formatNumber = d3.format("0,.0f"),    // zero decimal places
+    format = function(d) { return formatNumber(d) + units; },
+    color = d3.scale.category20();
+
+if(params.labelFormat){
+  formatNumber = d3.format(".2%");
+}
+
+var svg = d3.select('#' + params.id).append("svg")
+    .attr("width", params.width)
+    .attr("height", params.height);
+    
+var sankey = d3.sankey()
+    .nodeWidth(params.nodeWidth)
+    .nodePadding(params.nodePadding)
+    .layout(params.layout)
+    .size([params.width,params.height]);
+    
+var path = sankey.link();
+    
+var data = params.data,
+    links = [],
+    nodes = [];
+    
+//get all source and target into nodes
+//will reduce to unique in the next step
+//also get links in object form
+data.source.forEach(function (d, i) {
+    nodes.push({ "name": data.source[i] });
+    nodes.push({ "name": data.target[i] });
+    links.push({ "source": data.source[i], "target": data.target[i], "value": +data.value[i] });
+}); 
+
+//now get nodes based on links data
+//thanks Mike Bostock https://groups.google.com/d/msg/d3-js/pl297cFtIQk/Eso4q_eBu1IJ
+//this handy little function returns only the distinct / unique nodes
+nodes = d3.keys(d3.nest()
+                .key(function (d) { return d.name; })
+                .map(nodes));
+
+//it appears d3 with force layout wants a numeric source and target
+//so loop through each link replacing the text with its index from node
+links.forEach(function (d, i) {
+    links[i].source = nodes.indexOf(links[i].source);
+    links[i].target = nodes.indexOf(links[i].target);
+});
+
+//now loop through each nodes to make nodes an array of objects rather than an array of strings
+nodes.forEach(function (d, i) {
+    nodes[i] = { "name": d };
+});
+
+sankey
+  .nodes(nodes)
+  .links(links)
+  .layout(params.layout);
+  
+var link = svg.append("g").selectAll(".link")
+  .data(links)
+.enter().append("path")
+  .attr("class", "link")
+  .attr("d", path)
+  .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+  .sort(function (a, b) { return b.dy - a.dy; });
+
+link.append("title")
+  .text(function (d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+var node = svg.append("g").selectAll(".node")
+  .data(nodes)
+.enter().append("g")
+  .attr("class", "node")
+  .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+.call(d3.behavior.drag()
+  .origin(function (d) { return d; })
+  .on("dragstart", function () { this.parentNode.appendChild(this); })
+  .on("drag", dragmove));
+
+node.append("rect")
+  .attr("height", function (d) { return d.dy; })
+  .attr("width", sankey.nodeWidth())
+  .style("fill", function (d) { return d.color = color(d.name.replace(/ .*/, "")); })
+  .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+.append("title")
+  .text(function (d) { return d.name + "\n" + format(d.value); });
+
+node.append("text")
+  .attr("x", -6)
+  .attr("y", function (d) { return d.dy / 2; })
+  .attr("dy", ".35em")
+  .attr("text-anchor", "end")
+  .attr("transform", null)
+  .text(function (d) { return d.name; })
+.filter(function (d) { return d.x < params.width / 2; })
+  .attr("x", 6 + sankey.nodeWidth())
+  .attr("text-anchor", "start");
+
+// the function for moving the nodes
+  function dragmove(d) {
+    d3.select(this).attr("transform", 
+        "translate(" + (
+                   d.x = Math.max(0, Math.min(params.width - d.dx, d3.event.x))
+                ) + "," + (
+                   d.y = Math.max(0, Math.min(params.height - d.dy, d3.event.y))
+                ) + ")");
+        sankey.relayout();
+        link.attr("d", path);
+  }
+})();
+</script>
+<pre><code>&lt;script&gt;&lt;/script&gt;    </code></pre>
+<p></body> </html></p>

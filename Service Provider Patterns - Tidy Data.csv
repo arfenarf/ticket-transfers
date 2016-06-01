@@ -1,0 +1,15 @@
+Unit,Number of Unit IT members,Number of SLAs,Number of Assignment Groups,Number of IT Services offered,Number of tickets open during a random snapshot,Number of people in Unit,Number of IT Services offered outside of Unit,Number of IT Services consumed from outside of Unit,IT budget,Number of students?,Number of faculty?,Number of Users per MiWS,$# of Research Grants?,KGW Intuitive Order
+Unit,UIT-Members,SLAs,AGs,Services-Offered,Open-Tickets,Unit-People,Services-Sold,Services-Bought,IT-Budget,Unit-Students,Unit-Faculty,MiWS-Users,Research$,KGW-Guess
+ITS,825,22,293,102,6447,1000,,,,,,,,1
+LSA,133,4,39,47,1482,8872,,,,,,2584,,2
+Ross School of Business,23,0,6,9,89,1323,,,,,,,,3
+Plant Operations,16,0,6,33,52,1452,,,,,,,,4
+School of Education,20,12,6,8,79,551,,,,,,435,,5
+UMSI,7,0,3,10,1,360,,,,,,178,,6
+College of Pharmacy,8,0,4,14,20,911,,,,,,291,,7
+SMTD,4,0,2,9,2,772,,,,,,384,,8
+FSPP,3,0,1,7,4,274,,,,,,123,,9
+Taubman College,2,0,2,11,1,471,,,,,,128,,10
+SNRE,2,0,1,5,9,479,,,,,,296,,11
+School of Social Work,2,12,1,12,0,393,,,,,,,,12
+MBGNA,1,0,1,3,0,101,,,,,,,,13

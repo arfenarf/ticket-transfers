@@ -1,0 +1,422 @@
+Name,Service Provider
+Accounting Customer Service,SSC
+Accounts Payable,SSC
+Accounts Receivable,SSC
+ADDM Atrium Discovery and Dependency Mapping,ITS
+Analytics and BI,ITS
+API Directory,ITS
+Applicants,SSC
+Approver Table Maintenance,SSC
+Auxiliary IT,Student Life
+Batch 1TM,ITS
+Batch Access and Accounts,ITS
+Batch ARBill,ITS
+Batch Asset Space,ITS
+Batch Ben,ITS
+Batch Campus Solutions,ITS
+Batch CC,ITS
+Batch DART,ITS
+Batch Data Integration,ITS
+Batch EDI,ITS
+Batch Failure,ITS
+Batch GL,ITS
+Batch HE,ITS
+Batch HR,ITS
+Batch ID,ITS
+Batch Img,ITS
+Batch Inv,ITS
+Batch OraDB,ITS
+Batch Proc,ITS
+Batch PY,ITS
+Batch TL,ITS
+Batch Unic,ITS
+Benefits HRIS,SSC
+Benefits Transactions,SSC
+BlueDisc,ITS
+BMC Remedy,ITS
+BOM Bill of Materials Process,ITS
+Bomgar,ITS
+Business Objects,ITS
+Canvas,ITS
+Canvas SubAdmin School of Kinesiology Servicelink,ITS
+Career Center,Student Life
+Chartfield Approval,SSC
+Chartfield Maintenance,SSC
+Collections Inquiry,SSC
+Conveyant,ITS
+CoP - Academic Tech,College of Pharmacy
+CoP - Server Admin,College of Pharmacy
+CoP - Unit IT,College of Pharmacy
+CoP - Web Services,College of Pharmacy
+Course Roster,ITS
+CRM Customer Relationship Management,ITS
+CSDC Bill of Materials,ITS
+CSDC Billing Analysts,ITS
+CSDC BOM WD,ITS
+CSDC Engineering,ITS
+CSDC Field Service Supervisors,ITS
+CSDC Field Service Techs,ITS
+CSDC Fixed in Field,ITS
+CSDC Operational Support Systems,ITS
+CSDC Project Managers,ITS
+CSDC Telecommunication Analysts,ITS
+CSDC Web Applications,ITS
+CSDC Wireless Engineers,ITS
+CTools,ITS
+CTools Performance,ITS
+Customer Service,SSC
+DART Development Alumni Application Service,ITS
+Data Center Network,ITS
+Data HRIS,SSC
+Data Integration Developers,ITS
+Data Integration Performance,ITS
+DDW,ITS
+Death Notices,SSC
+DEI DIG ART Support,ITS
+DEI DIG ECoach Support,ITS
+DEI DIG Student Explorer Support,ITS
+Depot,ITS
+Desktop Backup,ITS
+Digital Education and Innovation,ITS
+Digital Signage,ITS
+Domain Registration,ITS
+Domestic Vendor Reporting,SSC
+DPSS Housing,DPSS Technology Management
+DPSS Medical Center,DPSS Technology Management
+DPSS Technology Support,DPSS Technology Management
+Employment HRIS,SSC
+Employment Services,SSC
+Enterprise Data Service,ITS
+Enterprise Portal B and F Websites,ITS
+ePayments,SSC
+eRes Animal Management,ITS
+eRes Developers,ITS
+eRes M-Inform Conflict of Interest Management,ITS
+eRes ORSP Tier3,ITS
+eRes Proposal Management,ITS
+eRes Regulatory Management,ITS
+ESR Administration,SSC
+Exchange Email and Calendar,ITS
+Expense Report Audit,SSC
+Expense Report Creation,SSC
+Expense Report Creation Team A,SSC
+Expense Report Creation Team B,SSC
+Expense Report Creation Team C,SSC
+Expense Report Creation Team D,SSC
+Expense Report Creation Team E,SSC
+Expense Report Creation Team F,SSC
+Expense Report Creation Team G,SSC
+Expense Report Creation Team H,SSC
+Expense Report Creation Team I,SSC
+Expense Report Quality,SSC
+Expense Report Quality 1,SSC
+Expense Report Quality 2,SSC
+Facilities and Operations AEC - Unit IT,Facilities & Operations - AEC
+Facilities and Operations OSEH - Unit IT,F&O - OSEH
+FIN Change Management,ITS
+FIN Financials,ITS
+FIN HSIP Human Subjects Incentive Payment,ITS
+FIN Inventory,ITS
+FIN M-Marketsite,ITS
+FIN Performance,ITS
+FIN Travel and Expense,ITS
+Finance Contact Center,SSC
+Financial Application Service,ITS
+Financial Operations,SSC
+FinOps Accounting Operations,SSC
+FinOps Financial Reporting,SSC
+FinOps Plant Fund,SSC
+Flexible Spending Accounts,SSC
+Foreign Vendor Reporting,SSC
+FP9,ITS
+FSPP - Unit IT,FSPP
+General Billing,SSC
+HE,ITS
+Health Plan Administration,SSC
+Hostmaster-DNS-DHCP,ITS
+HR Alternative Processing,SSC
+HR AWF Exception,SSC
+HR Batch Toolkit,SSC
+HR Benefits,ITS
+HR Campus Community,ITS
+HR Change Management,ITS
+HR Contact Center,SSC
+HR Coordinators,SSC
+HR Human Resources,ITS
+HR Payroll Time and Labor,ITS
+HR Performance,ITS
+HR Reports,ITS
+HR Shared Services,SSC
+HR Transaction Support,SSC
+HR Urgent Transaction,SSC
+HRIS,SSC
+Human Resources,SSC
+Human Resources Application Service,ITS
+I-9 and eVerify,SSC
+IAM Active Directory,ITS
+IAM Mcard,ITS
+IAM MCommunity,ITS
+IAM Operations and Data,ITS
+IAM Provisioning and Accounts,ITS
+IAM Single Sign On,ITS
+IAM Two Factor,ITS
+Identity and Access Management Application Services,ITS
+Imaging Performance,ITS
+Imaging Service,ITS
+Incoming Payment Credit Card,SSC
+Incoming Payment Other,SSC
+Institutional Data Access and Management Service,ITS
+Integration Specialists,SSC
+IS Infrastructure Services CTools,ITS
+ITS Access and Accounts,ITS
+ITS Access and Accounts Business Analysts,ITS
+ITS Accessibility,ITS
+ITS Admin Communications,ITS
+ITS Administrative Systems Service Desk,ITS
+ITS AWI Application and Web Infrastructure,ITS
+ITS AWI ERP,ITS
+ITS AWI Non ERP,ITS
+ITS AWI Web and Application Hosting,ITS
+ITS Batch,ITS
+ITS Campus Computing Sites,ITS
+ITS CPC Capacity Planning Committee,ITS
+ITS CTools Service Desk,ITS
+ITS Data Center Operations,ITS
+ITS Data Center Tech Analysts,ITS
+ITS Enterprise Support Systems,ITS
+ITS General Computing Service Desk,ITS
+ITS IIA Sensitive Data,ITS
+ITS Integration Architecture Review,ITS
+ITS Knowledge Management,ITS
+ITS Migrations and Scheduling,ITS
+ITS Network,ITS
+ITS NOC Network Operation Center,ITS
+ITS Performance Support,ITS
+ITS Postmaster,ITS
+ITS Security,ITS
+ITS Security Firewall,ITS
+ITS Security Incident Response,ITS
+ITS Service Center,ITS
+ITS SM Analytics and Reporting,ITS
+ITS SM Service Management,ITS
+ITS SS Incident Coordinators,ITS
+ITS SS Incident Management,ITS
+ITS Storage,ITS
+ITS Strategic Planning,ITS
+ITS Sustainable Computing,ITS
+ITS System Performance,ITS
+ITS Systems Support,ITS
+ITS Systems Support Windows,ITS
+ITS Tech Pools,ITS
+ITS Tech Pools - Java,ITS
+ITS Tech Pools - NET,ITS
+ITS Tech Repair,ITS
+ITS Transition Desk,ITS
+ITS UMnetInfo,ITS
+ITS Unit Liaison,ITS
+ITS User Advocate,ITS
+ITS Virtual Infrastructure,ITS
+ITS Web Conferencing,ITS
+ITS Web Team,ITS
+ITS WES Windows Enterprise Systems,ITS
+ITS Windows Infrastructure,ITS
+ITS Workflow Fulfillment,ITS
+Jira,ITS
+Journal Entry,SSC
+LDAP Admins,ITS
+Learning Management,ITS
+Life and Legal Insurance Administration,SSC
+LSA Accounts,LSA
+LSA ARS Advocacy and Research Support,LSA
+LSA ARS Research Programming,LSA
+LSA Astronomy Support,LSA
+LSA CaTS Computing and Technology Support,LSA
+LSA CaTS LARET,LSA
+LSA CaTS Network,LSA
+LSA CaTS Printing,LSA
+LSA CaTS Windows,LSA
+LSA CaTS Workstudies,LSA
+LSA CET Astronomy,LSA
+LSA CET CaTS Computing and Technology,LSA
+LSA CET EHTS East Hall Technology Services,LSA
+LSA CET RSN Research Support North,LSA
+LSA CSG - Instructional Computing,LSA
+LSA CSG Computer Support Group - 500 S State,LSA
+LSA CSG Computer Support Group - Angell Hall,LSA
+LSA CSG Computer Support Group - MLB,LSA
+LSA DMC Web Services,LSA
+LSA Earth and Environmental Sciences Linux Support,LSA
+LSA EHTS East Hall Technology Services,LSA
+LSA EHTS Linux,LSA
+LSA EHTS Mac,LSA
+LSA EHTS Print,LSA
+LSA EHTS Students,LSA
+LSA EHTS Web,LSA
+LSA EHTS Windows,LSA
+LSA Emeritus,LSA
+LSA Infrastructure,LSA
+LSA IT Asset Management,LSA
+LSA IT Service Desk,LSA
+LSA MIS Management Information Systems,LSA
+LSA Network,LSA
+LSA Procurement,LSA
+LSA RSN Research Support North - Chemistry,LSA
+LSA RSN Research Support North - Kraus,LSA
+LSA Security,LSA
+LSA Web Feedback,LSA
+LTD Plan Administration,SSC
+Mail Routing,ITS
+MARI - Unit IT,MARI
+MBGNA - Unit IT,MBGNA
+MBox,ITS
+MCloud,ITS
+MGoogle,ITS
+Michigan IT Service Portal,ITS
+Michigan IT Units,ITS
+MiDatabase,ITS
+MiServer,ITS
+MiVideo,ITS
+MiWorkspace,ITS
+MiWorkspace Advance Team,ITS
+MiWorkspace Engineering Mac,ITS
+MiWorkspace Engineering Print,ITS
+MiWorkspace Engineering Windows,ITS
+Mobile Applications,ITS
+MReports,ITS
+MRequest,ITS
+MSSQL DBA,ITS
+MTC - Unit IT,MTC
+Museum of Art - Museum Technology,Museum of Art
+Museum of Art - UMMA Bugs,Museum of Art
+My LINC,ITS
+MySQL DBA,ITS
+Nagios,ITS
+NIT Central 1,ITS
+NIT Central 11,ITS
+NIT Central 3,ITS
+NIT Central 4,ITS
+NIT Central 5,ITS
+NIT Extended Hours,ITS
+NIT North 1,ITS
+NIT South 1,ITS
+NIT South 2,ITS
+Non-PAR Processors,SSC
+OARS Online Access Request System,ITS
+Online Service Center - ITS Comm,ITS
+Operations,SSC
+Oracle DBA,ITS
+OUD IT - Support,OUD IT
+Outgoing Payment,SSC
+Outgoing Payment NPV,SSC
+Outgoing Payment Research,SSC
+P-Card Administration,SSC
+Paid Time Off Manual Processing,SSC
+PAR Processors,SSC
+Payroll - Deductions,SSC
+Payroll - Financial Services,SSC
+Payroll - Sal Tr Uyr Pool,SSC
+Payroll - Service Center,SSC
+Payroll - Tax,SSC
+Payroll - Timekeeping,SSC
+Payroll - Walk-in,SSC
+PCard Month-End Close Team,SSC
+Pinnacle,ITS
+Plant - BSA,Plant Operations
+Plant - Dev,Plant Operations
+Plant - MIS,Plant Operations
+Plant - Support,Plant Operations
+Plant - Systems,Plant Operations
+Plant - Web,Plant Operations
+Planview,ITS
+Qualtrics,ITS
+Rackham - Unit IT,Rackham
+Rackwise,ITS
+Research Administration Application Service,ITS
+Retirement Appointment,SSC
+Retirement Counseling,SSC
+Retirement Plan Administration,SSC
+Returned Payment,SSC
+Ross - Classroom Support,Ross School of Business
+Ross - Network-Infrastructure,Ross School of Business
+Ross - Orders,Ross School of Business
+Ross - Research Computing,Ross School of Business
+Ross - Training-Communications,Ross School of Business
+Ross - Web-Application,Ross School of Business
+Rx Administration,SSC
+SA Change Management,ITS
+SA Fin Aid Stdnt Financials SEVIS,ITS
+SA Global Engagement,ITS
+SA Imaging Shared Processes,ITS
+SA Performance,ITS
+SA Recruiting Admissions,ITS
+SA Student Records Advising Curriculum,ITS
+Scanning Services,ITS
+Service Transition Planning and Support,ITS
+ServiceLink,ITS
+SiteMaker,ITS
+Sites Admin and Facilities,ITS
+Sites Classrooms and Software,ITS
+Sites Consultants,ITS
+Sites Rovers,ITS
+SMTD - Unit IT,SMTD
+SMTD - Web,SMTD
+SNRE - Unit IT,SNRE
+SNRE-Procurement,SNRE
+SOA,SSC
+SOA Associate,SSC
+SOA Senior,SSC
+SOE - Brandon Center Desk,School of Education
+SOE - Data Management,School of Education
+SOE - Instructional Support,School of Education
+SOE - IT Administration,School of Education
+SOE - Web Support,School of Education
+Splunk,ITS
+Sponsored Billing,SSC
+SSW - Unit IT,School of Social Work
+STAT,ITS
+Student Administration Application Service,ITS
+Tableau,ITS
+Taubman College - Instructional Technology,Taubman College
+Taubman College - Unit IT,Taubman College
+Teaching and Learning Developers,ITS
+Team Development Code Reviewers,ITS
+Time and Leave Admin,SSC
+Time Reporting,SSC
+TNG Reports,ITS
+Travel and Expense,SSC
+Travel Booking,SSC
+UM.Lessons,ITS
+UMFirewall,ITS
+UmichITAM,ITS
+UMNet,ITS
+UMSI - Facilities,UMSI
+UMSI - Marketing and Communications,UMSI
+UMSI - UMSI Computing,UMSI
+Unallocated,SSC
+Unicenter Application Admin,ITS
+Unified Communication Systems,ITS
+Unit Advance,Advance
+UNIT Athletics,Athletics
+UNIT Facilities and Ops Parking and Transport,PTS
+UNIT Kinesiology,Kinesiology
+UNIT Office of Financial Aid,OFA
+Unit Office of Research and Sponsored Projects,ORSP
+UNIT OVPR Office of the Vice President for Research,OVPR
+UNIT PCM Print Copy Mail,PCM
+UNIT UHR University Human Resources,UHR
+UNIT University Library,University Library
+University Health Services,Student Life
+University Unions,Student Life
+Unpaid Leaves of Absence,SSC
+Vendor Maintenance,SSC
+Vendor Management,SSC
+Vendor Research,SSC
+Video Services,ITS
+Virtual Desktop Infrastructure,ITS
+Voice Services Operations,ITS
+Web Conferencing,ITS
+WIFI,ITS
+Windows OS,ITS
+Wolverine Access Gateway,ITS
+Facilities and Operations AEC - Unit IT,Facilities & Operations - AEC
+Facilities and Operations OSEH - Unit IT,F&O - OSEH
